@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Appointment Contact Form</title>
+</head>
+<body>
+
+<center><h2>Appointment Contact Form</h2></center>
+<div>
+  <div>
+    <div class="container">
+	
+      <form action="submit_phpcrm_form.php" method="post">
+      
+        
+            
+        <div >
+          <div><br>
+           <label for="name"></label>
+           <input type="text" id="fname" name="name" placeholder="Name" required>
+	
+  
+           <label for="email"></label>
+           <input type="text" id="email" name="email" placeholder="Email" required>
+
+
+           <label for="phone"></label>
+           <input type="number" id="phone" name="phone" placeholder="Phone" required>
+	
+	
+	
+         	<textarea id="Message" name="Message" placeholder="Special notes,Concerns,or requirements.." style="height:230px" required></textarea>
+          
+          </div>
+          <div>
+        
+            <label><b>What is the best way to reach you?</b></label><br>
+<input type="radio" id=" Phone" name="radio" value="Phone" style="margin-left:13px;">&nbspPhone<label for="Phone"></label><br>
+<input type="radio" id="Email" name="radio" value="Email" style="margin-left:13px;">&nbspEmail<label for="Email"></label><br><br>
+            <label><b>Days of the week you are available for appointment:</b></label><br>
+            <input type="checkbox" id="day1" name="day1" value="Monday">
+            <label for="day1" >Monday</label ><br>
+            <input type="checkbox" id="day2" name="day2" value="Tuesday">
+            <label for="day2">Tuesday</label><br>
+            <input type="checkbox" id="day3" name="day3" value="Wednesday">
+            <label for="day3" >Wednesday</label><br>
+            <input type="checkbox" id="day4" name="day4"value="Thursday">
+            <label for="day4">Thursday</label><br>
+            <input type="checkbox" id="day5" name="day5"value="Friday">
+            <label for="day5">Friday</label><br><br>
+            <label><b>Best time of day for your appointment:</b></label><br>
+            <input type="checkbox" id="shift1" name="shift1" value="Morning">
+            <label for="shift1">Morning</label><br>
+            <input type="checkbox" id="shift2" name="shift2" value="Evening">
+            <label for="shift2">Afternoon</label><br>
+            </div>
+         <input type="submit" value="Send Appointment Request" class="btn">
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
