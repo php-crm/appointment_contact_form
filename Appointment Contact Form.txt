@@ -1,0 +1,14 @@
+This is a easy appointment contact form template that you could use to your website to schedule appointments together along with your customers and partners. It may be used from any kind of desktop or mobile device. You can capture the details such as Name, Email, Phone, Availability day for appointment, Time of day for appointment. These data is stored in your CRM software in a organized way so that you can easily access the appointment details. 
+
+
+
+
+CRM Software : https://www.phpcrm.com/
+
+CRM Software Demo: https://www.phpcrm.com/crm-demo/
+
+Download CRM Software: https://www.phpcrm.com/download/
+
+Free Self-hosted CRM Software: https://www.phpcrm.com/free-self-hosted-crm-software/
+
+Appointment HTML Form : https://www.phpcrm.com/download-appointment-html-form/
